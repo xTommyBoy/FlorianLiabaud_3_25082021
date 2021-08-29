@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"style.css"}
+{"version":3,"sourceRoot":"","sources":["../sass/components/_polices.scss","../sass/main.scss","../sass/layout/_header.scss"],"names":[],"mappings":"AAAQ;ACEA;ACAR;EAEI;IAEI;IACA;IACA;IACA;IACA;IACA;IACA;IACA;;;EAEJ;IAEI;;;EAEJ;IAEI;IACA;IACA;IACA;IACA;;;EAEJ;IAEI;IACA;IACA;IACA;IACA;IACA;;;EAEJ;IAEI","file":"style.css"}
