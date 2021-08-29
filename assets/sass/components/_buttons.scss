@@ -1,0 +1,20 @@
+@media screen and (max-width: 600px)
+{
+.reservation-bouton
+{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 15px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: 210px;
+    background-color: #f80be8;
+    color: rgb(255, 255, 255);
+    box-shadow: inset -16px -13px 20px 6px #ab2ed1;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    height: 30px;
+}
+}

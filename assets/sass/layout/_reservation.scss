@@ -1,0 +1,27 @@
+@media screen and (max-width: 600px)
+{
+    body
+    {
+        margin: 0;
+    }
+    .reservation
+    {
+        display: flex;
+        padding-bottom: 35px;
+        flex-direction: column;
+        text-align: center;
+        background-color: #f7f7f7;
+        font-family: 'Roboto';
+        margin-top: -14px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .reservation-title
+    {
+        margin-top: 20px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

@@ -36,5 +36,48 @@
     padding-right: 10px;
   }
 }
+@media screen and (max-width: 600px) {
+  .reservation-bouton {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 15px;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    width: 210px;
+    background-color: #f80be8;
+    color: white;
+    box-shadow: inset -16px -13px 20px 6px #ab2ed1;
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    height: 30px;
+  }
+}
+@media screen and (max-width: 600px) {
+  body {
+    margin: 0;
+  }
+
+  .reservation {
+    display: flex;
+    padding-bottom: 35px;
+    flex-direction: column;
+    text-align: center;
+    background-color: #f7f7f7;
+    font-family: "Roboto";
+    margin-top: -14px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .reservation-title {
+    margin-top: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
