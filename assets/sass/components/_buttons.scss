@@ -13,8 +13,54 @@
     background-color: #f80be8;
     color: rgb(255, 255, 255);
     box-shadow: inset -16px -13px 20px 6px #ab2ed1;
-    font-family: Roboto, sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 500;
     height: 30px;
+}
+.choice-button
+{
+    margin-top: 8px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #ebf0f3;
+    color: #000;
+    font-weight: 700;
+    border-radius: 14px;
+    font-family: Roboto, sans-serif;
+    margin: auto;
+    width: 220px;
+}
+.composition-button
+{
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 10px;
+    background-color: #ebf0f3;
+    color: #000;
+    font-weight: 700;
+    border-radius: 14px;
+    font-family: Roboto, sans-serif;
+    margin: auto;
+    width: 220px;
+}
+.degustation-button
+{
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #ebf0f3;
+    color: #000;
+    font-weight: 700;
+    border-radius: 14px;
+    font-family: Roboto, sans-serif;
+    margin: auto;
+    width: 220px;
 }
 }

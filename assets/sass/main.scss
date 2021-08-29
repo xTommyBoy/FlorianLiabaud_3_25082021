@@ -1,4 +1,15 @@
+html
+{
+    height: 150%;
+}
 @import "layout/header";
+
 @import "components/buttons";
+
 @import "layout/reservation";
-@import "settings/polices"
+
+@import "settings/polices";
+
+@import "layout/fonctionnement";
+
+@import "layout/restaurants";
