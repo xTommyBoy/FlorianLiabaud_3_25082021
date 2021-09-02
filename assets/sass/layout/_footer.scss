@@ -1,0 +1,28 @@
+$darkslategray: #363636;
+
+@media screen and (max-width: 600px) {
+  
+  footer {
+    background-color: $darkslategray;
+    color: white;
+    padding: 20px 25px 30px;
+
+    h3 {
+      font-family: 'Shrikhand';
+      font-size: 1.1rem;
+      font-weight: 400;
+      margin-bottom: 13px;
+    }
+
+    li {
+      color: white;
+      font-family: 'Roboto';
+      line-height: 1.7rem;
+      list-style-type: none;
+    }
+
+    i {
+      margin-right: 10px;
+    }
+  }
+}

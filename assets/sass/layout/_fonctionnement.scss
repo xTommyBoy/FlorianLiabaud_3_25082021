@@ -1,18 +1,17 @@
-@media screen and (max-width: 600px)
-{
-    .fonctionnement
-    {
-        flex-direction: column;
-        display: flex;
-        gap: 20px;
-    }
-    .fonctionnement-title
-    {
-        padding-top: 10px;
-        padding-left: 15px;
-        font-family: Roboto, sans-serif;
-        font-size: 23px;
-        line-height: 36px;
-        font-weight: 700;
-    }
+@media screen and (max-width: 600px) {
+  
+  .fonctionnement {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .fonctionnement-title {
+    font-family: Roboto, sans-serif;
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 36px;
+    padding-left: 15px;
+    padding-top: 10px;
+  }
 }

@@ -1,66 +1,62 @@
-@media screen and (max-width: 600px)
-{
-.reservation-bouton
-{
-    margin: auto;
-    display: flex;
-    justify-content: center;
+$black_000: #000000;
+$darkorchid_ab2ed1: #ab2ed1;
+$fuchsia_f80be8: #f80be8;
+$whitesmoke_ebf0f3: #ebf0f3;
+
+@media screen and (max-width: 600px) {
+  
+  .reservation-bouton {
     align-content: center;
-    padding-top: 15px;
+    background-color: $fuchsia_f80be8;
     border: 1px solid transparent;
     border-radius: 20px;
-    width: 210px;
-    background-color: #f80be8;
-    color: rgb(255, 255, 255);
-    box-shadow: inset -16px -13px 20px 6px #ab2ed1;
+    box-shadow: inset -16px -13px 20px 6px $darkorchid_ab2ed1;
+    color: white;
+    display: flex;
     font-family: 'Roboto', sans-serif;
     font-weight: 500;
     height: 30px;
-}
-.choice-button
-{
-    margin-top: 8px;
+    justify-content: center;
+    margin: auto;
+    padding-top: 15px;
+    width: 210px;
+  }
+
+  .choice-button {
+    display: flex;
+    justify-content: center;
+    background-color: $whitesmoke_ebf0f3;
+    border-radius: 14px;
+    color: $black_000;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    margin: auto;
     padding: 20px;
     text-align: center;
-    margin-left: 15px;
-    margin-right: 15px;
-    background-color: #ebf0f3;
-    color: #000;
-    font-weight: 700;
-    border-radius: 14px;
-    font-family: Roboto, sans-serif;
-    margin: auto;
     width: 220px;
-}
-.composition-button
-{
-    margin-top: 20px;
+  }
+
+  .composition-button {
+    background-color: $whitesmoke_ebf0f3;
+    border-radius: 14px;
+    color: $black_000;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    margin: auto;
     padding: 20px;
     text-align: center;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 10px;
-    background-color: #ebf0f3;
-    color: #000;
-    font-weight: 700;
-    border-radius: 14px;
-    font-family: Roboto, sans-serif;
-    margin: auto;
     width: 220px;
-}
-.degustation-button
-{
-    margin-bottom: 20px;
+  }
+
+  .degustation-button {
+    background-color: $whitesmoke_ebf0f3;
+    border-radius: 14px;
+    color: $black_000;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    margin: auto;
     padding: 20px;
     text-align: center;
-    margin-left: 15px;
-    margin-right: 15px;
-    background-color: #ebf0f3;
-    color: #000;
-    font-weight: 700;
-    border-radius: 14px;
-    font-family: Roboto, sans-serif;
-    margin: auto;
     width: 220px;
-}
+  }
 }

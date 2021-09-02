@@ -1,18 +1,14 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&dispaly=swap");
-html {
-  height: 150%;
-}
-
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Shrikhand&display=swap");
 @media screen and (max-width: 600px) {
   .header-logo {
-    display: flex;
-    padding-top: 20px;
-    padding-bottom: 10px;
-    flex-direction: column;
     align-items: center;
     box-shadow: 0 5px 7px -1px #cfcfcf;
+    display: flex;
+    flex-direction: column;
     margin-left: -10px;
     margin-right: -10px;
+    padding-bottom: 10px;
+    padding-top: 20px;
   }
 
   .header-image {
@@ -20,20 +16,20 @@ html {
   }
 
   .paris-bloc {
-    margin-top: -10px;
+    background-color: #eaeaea;
     flex-direction: column;
     margin-left: -10px;
     margin-right: -10px;
-    background-color: #eaeaea;
+    margin-top: -10px;
   }
 
   .paris-text {
-    text-align: center;
+    color: #5c5c5c;
     font-family: "Roboto";
     font-size: 1rem;
-    padding-top: 15px;
     padding-bottom: 15px;
-    color: #5c5c5c;
+    padding-top: 15px;
+    text-align: center;
   }
 
   .fa-map-marker-alt {
@@ -42,65 +38,57 @@ html {
 }
 @media screen and (max-width: 600px) {
   .reservation-bouton {
-    margin: auto;
-    display: flex;
-    justify-content: center;
     align-content: center;
-    padding-top: 15px;
+    background-color: #f80be8;
     border: 1px solid transparent;
     border-radius: 20px;
-    width: 210px;
-    background-color: #f80be8;
-    color: white;
     box-shadow: inset -16px -13px 20px 6px #ab2ed1;
+    color: white;
+    display: flex;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
     height: 30px;
+    justify-content: center;
+    margin: auto;
+    padding-top: 15px;
+    width: 210px;
   }
 
   .choice-button {
-    margin-top: 8px;
+    display: flex;
+    justify-content: center;
+    background-color: #ebf0f3;
+    border-radius: 14px;
+    color: #000000;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    margin: auto;
     padding: 20px;
     text-align: center;
-    margin-left: 15px;
-    margin-right: 15px;
-    background-color: #ebf0f3;
-    color: #000;
-    font-weight: 700;
-    border-radius: 14px;
-    font-family: Roboto, sans-serif;
-    margin: auto;
     width: 220px;
   }
 
   .composition-button {
-    margin-top: 20px;
+    background-color: #ebf0f3;
+    border-radius: 14px;
+    color: #000000;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    margin: auto;
     padding: 20px;
     text-align: center;
-    margin-left: 15px;
-    margin-right: 15px;
-    margin-top: 10px;
-    background-color: #ebf0f3;
-    color: #000;
-    font-weight: 700;
-    border-radius: 14px;
-    font-family: Roboto, sans-serif;
-    margin: auto;
     width: 220px;
   }
 
   .degustation-button {
-    margin-bottom: 20px;
+    background-color: #ebf0f3;
+    border-radius: 14px;
+    color: #000000;
+    font-family: Roboto, sans-serif;
+    font-weight: 700;
+    margin: auto;
     padding: 20px;
     text-align: center;
-    margin-left: 15px;
-    margin-right: 15px;
-    background-color: #ebf0f3;
-    color: #000;
-    font-weight: 700;
-    border-radius: 14px;
-    font-family: Roboto, sans-serif;
-    margin: auto;
     width: 220px;
   }
 }
@@ -110,52 +98,110 @@ html {
   }
 
   .reservation {
-    display: flex;
-    padding-bottom: 35px;
-    flex-direction: column;
-    text-align: center;
     background-color: #f7f7f7;
+    display: flex;
+    flex-direction: column;
     font-family: "Roboto";
     margin-top: -14px;
+    padding-bottom: 35px;
     padding-left: 10px;
     padding-right: 10px;
+    text-align: center;
   }
 
   .reservation-title {
-    margin-top: 20px;
-    margin-right: auto;
     margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
     padding-left: 20px;
     padding-right: 20px;
   }
 }
 @media screen and (max-width: 600px) {
   .fonctionnement {
-    flex-direction: column;
     display: flex;
+    flex-direction: column;
     gap: 20px;
   }
 
   .fonctionnement-title {
-    padding-top: 10px;
-    padding-left: 15px;
     font-family: Roboto, sans-serif;
     font-size: 23px;
-    line-height: 36px;
     font-weight: 700;
+    line-height: 36px;
+    padding-left: 15px;
+    padding-top: 10px;
   }
 }
 @media screen and (max-width: 600px) {
   .restaurants {
-    margin-top: 90px;
-    background-color: #eee;
+    background: #f6f6f6;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+  }
+
+  .restaurants-blocks {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    padding: 20px;
   }
 
   .restaurants-title {
     display: inline-block;
-    margin-top: 40px;
-    margin-left: 15px;
     font-family: "Roboto";
+    margin-left: 15px;
+    margin-top: 40px;
+  }
+
+  .restaurants-block {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 280px;
+    border-radius: 20px;
+  }
+  .restaurants-block img {
+    border-radius: 20px;
+    height: 60%;
+    object-fit: cover;
+    width: 120%;
+  }
+
+  .restaurants-description {
+    background: white;
+    border-radius: 0 0 20px 20px;
+    display: flex;
+    font-family: "Roboto";
+    height: 80px;
+    margin-top: -30px;
+    text-align: center;
+    width: 120%;
+  }
+}
+@media screen and (max-width: 600px) {
+  footer {
+    background-color: #363636;
+    color: white;
+    padding: 20px 25px 30px;
+  }
+  footer h3 {
+    font-family: "Shrikhand";
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin-bottom: 13px;
+  }
+  footer li {
+    color: white;
+    font-family: "Roboto";
+    line-height: 1.7rem;
+    list-style-type: none;
+  }
+  footer i {
+    margin-right: 10px;
   }
 }
 
