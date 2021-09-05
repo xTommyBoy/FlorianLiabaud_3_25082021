@@ -2,6 +2,12 @@ $whitesmoke_f6f6f6: #f6f6f6;
 
 @media screen and (max-width: 600px) {
   
+  a
+  {
+    text-decoration: inherit;
+    color: inherit;
+    display: contents;
+  }
   .restaurants {
     background: $whitesmoke_f6f6f6;
     flex-direction: column;
@@ -29,7 +35,7 @@ $whitesmoke_f6f6f6: #f6f6f6;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    height: 280px;
+    height: 200px;
     border-radius: 20px;
 
     img {
@@ -46,7 +52,7 @@ $whitesmoke_f6f6f6: #f6f6f6;
     display: flex;
     font-family: 'Roboto';
     height: 80px;
-    margin-top: -30px;
+    margin-top: -15px;
     text-align: center;
     width: 120%;
   }

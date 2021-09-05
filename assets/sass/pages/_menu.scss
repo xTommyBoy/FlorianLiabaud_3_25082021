@@ -1,0 +1,29 @@
+@media screen and (max-width: 600px) {
+
+    .menu-types
+    {
+        font-family: 'Roboto';
+        margin-left: 15px;
+    }
+
+    .menu-blocks
+    {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .choice-block
+    {
+        display: flex;
+        background-color: $whitesmoke_ebf0f3;
+        border-radius: 14px;
+        color: $black_000;
+        font-family: Roboto, sans-serif;
+        font-weight: 700;
+        margin: auto;
+        padding: 20px 60px 20px 20px;
+        width: 220px;
+    }
+}

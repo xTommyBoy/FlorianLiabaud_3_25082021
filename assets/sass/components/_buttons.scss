@@ -59,4 +59,23 @@ $whitesmoke_ebf0f3: #ebf0f3;
     text-align: center;
     width: 220px;
   }
+
+  .command-button
+  {
+    align-content: center;
+    background-color: $fuchsia_f80be8;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    box-shadow: inset -16px -13px 20px 6px $darkorchid_ab2ed1;
+    color: white;
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    height: 30px;
+    justify-content: center;
+    margin: auto;
+    padding-top: 15px;
+    margin-bottom: 15px;
+    width: 210px;
+  }
 }
