@@ -1,7 +1,5 @@
-$darkslategray: #363636;
+@import "../settings/colors";
 
-@media screen and (max-width: 600px) {
-  
   footer {
     background-color: $darkslategray;
     color: white;
@@ -25,4 +23,4 @@ $darkslategray: #363636;
       margin-right: 10px;
     }
   }
-}
+

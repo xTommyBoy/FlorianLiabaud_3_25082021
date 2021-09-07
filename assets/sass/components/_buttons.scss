@@ -1,10 +1,5 @@
-$black_000: #000000;
-$darkorchid_ab2ed1: #ab2ed1;
-$fuchsia_f80be8: #f80be8;
-$whitesmoke_ebf0f3: #ebf0f3;
+@import "../settings/colors";
 
-@media screen and (max-width: 600px) {
-  
   .reservation-bouton {
     align-content: center;
     background-color: $fuchsia_f80be8;
@@ -78,4 +73,3 @@ $whitesmoke_ebf0f3: #ebf0f3;
     margin-bottom: 15px;
     width: 210px;
   }
-}

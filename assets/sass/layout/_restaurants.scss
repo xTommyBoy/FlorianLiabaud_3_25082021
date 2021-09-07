@@ -1,7 +1,4 @@
-$whitesmoke_f6f6f6: #f6f6f6;
-
-@media screen and (max-width: 600px) {
-  
+@import "../settings/colors";
   a
   {
     text-decoration: inherit;
@@ -10,8 +7,6 @@ $whitesmoke_f6f6f6: #f6f6f6;
   }
   .restaurants {
     background: $whitesmoke_f6f6f6;
-    flex-direction: column;
-    justify-content: center;
     padding: 20px;
   }
 
@@ -35,6 +30,8 @@ $whitesmoke_f6f6f6: #f6f6f6;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    max-width: 300px;
+    margin: auto;
     height: 200px;
     border-radius: 20px;
 
@@ -56,4 +53,42 @@ $whitesmoke_f6f6f6: #f6f6f6;
     text-align: center;
     width: 120%;
   }
+
+@media (min-width: 480px) and (max-width: 600px)
+  {
+    .restaurants-blocks {
+      display: grid; 
+      grid-template-columns: repeat(2, 1fr); 
+      grid-template-rows: repeat(2, 0.5fr);
+      gap: 20px 70px; 
+      width: 420px;
+      margin: auto;
+    }
+  }
+
+@media (min-width: 600px) and (max-width: 700px)
+{
+  .restaurants-blocks 
+  {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 0.5fr);
+    gap: 20px 70px; 
+    width: 500px;
+    margin: auto;
+  }
 }
+
+@media (min-width: 700px) and (max-width: 800px)
+{
+  .restaurants-blocks 
+  {
+    display: grid; 
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, 0.5fr);
+    gap: 20px 70px; 
+    width: 600px;
+    margin: auto;
+  }
+}
+

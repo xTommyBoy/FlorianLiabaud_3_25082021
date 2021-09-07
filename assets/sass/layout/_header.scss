@@ -1,9 +1,5 @@
-$dimgray_5c5c5c: #5c5c5c;
-$lightgray_cfcfcf: #cfcfcf;
-$whitesmoke_eaeaea: #eaeaea;
+@import "../settings/colors";
 
-@media screen and (max-width: 600px) {
-  
   .header-logo {
     align-items: center;
     box-shadow: 0 5px 7px -1px $lightgray_cfcfcf;
@@ -39,4 +35,9 @@ $whitesmoke_eaeaea: #eaeaea;
   .fa-map-marker-alt {
     padding-right: 10px;
   }
+
+@media (min-width: 500px) and (max-width: 800px)
+{
+  
 }
+

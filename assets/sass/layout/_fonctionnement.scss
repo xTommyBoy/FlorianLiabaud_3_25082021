@@ -1,9 +1,9 @@
-@media screen and (max-width: 600px) {
-  
+ 
   .fonctionnement {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    margin-bottom: 20px;
   }
 
   .fonctionnement-title {
@@ -14,4 +14,4 @@
     padding-left: 15px;
     padding-top: 10px;
   }
-}
+
