@@ -13,8 +13,7 @@
   .restaurants-blocks 
   {
     display: flex;
-    flex-direction: column;
-    gap:20px;
+    flex-wrap: wrap;
   }
 
   .restaurants-title {
@@ -49,22 +48,11 @@
     width: 100%;
   }
 
-  #ajust
-  {
-    height: 250px;
-  }
-
 @media only screen and (min-width: 400px)
   {
-    .restaurants-blocks 
-    {
-      display: flex;
-      flex-wrap: wrap;
-    }
     .restaurants-block 
     {
       flex-wrap: wrap;
-      flex-direction: column;
       border-radius: 20px;
       padding: 0 15px;
       flex: 0 0 auto;
