@@ -17,40 +17,16 @@
     width: 210px;
   }
 
-  .choice-button {
+  .fonctionnement-button {
     display: flex;
-    justify-content: center;
-    background-color: $whitesmoke_ebf0f3;
-    border-radius: 14px;
+    justify-content: center; align-items: center;
+    background-color: $whitesmoke_f6f6f6;
+    border-radius: 20px;
     color: $black_000;
     font-family: Roboto, sans-serif;
     font-weight: 700;
     margin: auto;
-    padding: 20px;
-    text-align: center;
-    width: 220px;
-  }
-
-  .composition-button {
-    background-color: $whitesmoke_ebf0f3;
-    border-radius: 14px;
-    color: $black_000;
-    font-family: Roboto, sans-serif;
-    font-weight: 700;
-    margin: auto;
-    padding: 20px;
-    text-align: center;
-    width: 220px;
-  }
-
-  .degustation-button {
-    background-color: $whitesmoke_ebf0f3;
-    border-radius: 14px;
-    color: $black_000;
-    font-family: Roboto, sans-serif;
-    font-weight: 700;
-    margin: auto;
-    padding: 20px;
+    padding: 25px 40px 25px 40px;
     text-align: center;
     width: 220px;
   }
@@ -73,3 +49,22 @@
     margin-bottom: 15px;
     width: 210px;
   }
+
+  .numbers
+  {
+    position: absolute;
+    background-color:#9356DC;
+    color: white;
+    padding:5px 10px 5px 10px;
+    border-radius: 100%;
+    margin-right: 300px;
+  }
+
+  @media (min-width: 320px) and (max-width: 340px)
+  {
+    .fonctionnement-button
+    {
+      margin: auto 20px auto;
+    }
+  }
+

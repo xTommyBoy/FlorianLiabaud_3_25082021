@@ -10,11 +10,11 @@
     padding: 20px;
   }
 
-  .restaurants-blocks {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-template-rows: repeat(4, 1fr);
-    padding: 20px;
+  .restaurants-blocks 
+  {
+    display: flex;
+    flex-direction: column;
+    gap:20px;
   }
 
   .restaurants-title {
@@ -27,19 +27,16 @@
   .restaurants-block {
     position: relative;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
-    width: 100%;
-    max-width: 300px;
-    margin: auto;
-    height: 200px;
     border-radius: 20px;
 
+
     img {
-      border-radius: 20px;
-      height: 60%;
+      border-radius: 20px 20px 0 0;
       object-fit: cover;
-      width: 120%;
+      width: 100%;
     }
   }
 
@@ -48,47 +45,34 @@
     border-radius: 0 0 20px 20px;
     display: flex;
     font-family: 'Roboto';
-    height: 80px;
-    margin-top: -15px;
     text-align: center;
-    width: 120%;
+    width: 100%;
   }
 
-@media (min-width: 480px) and (max-width: 600px)
+  #ajust
   {
-    .restaurants-blocks {
-      display: grid; 
-      grid-template-columns: repeat(2, 1fr); 
-      grid-template-rows: repeat(2, 0.5fr);
-      gap: 20px 70px; 
-      width: 420px;
-      margin: auto;
+    height: 250px;
+  }
+
+@media only screen and (min-width: 400px)
+  {
+    .restaurants-blocks 
+    {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .restaurants-block 
+    {
+      flex-wrap: wrap;
+      flex-direction: column;
+      border-radius: 20px;
+      padding: 0 15px;
+      flex: 0 0 auto;
+      width: 50%;
+      margin-bottom: 30px;
+      box-sizing: border-box;
     }
   }
 
-@media (min-width: 600px) and (max-width: 700px)
-{
-  .restaurants-blocks 
-  {
-    display: grid; 
-    grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: repeat(2, 0.5fr);
-    gap: 20px 70px; 
-    width: 500px;
-    margin: auto;
-  }
-}
 
-@media (min-width: 700px) and (max-width: 800px)
-{
-  .restaurants-blocks 
-  {
-    display: grid; 
-    grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: repeat(2, 0.5fr);
-    gap: 20px 70px; 
-    width: 600px;
-    margin: auto;
-  }
-}
 

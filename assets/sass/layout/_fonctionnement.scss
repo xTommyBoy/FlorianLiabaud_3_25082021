@@ -15,3 +15,33 @@
     padding-top: 10px;
   }
 
+  .fa-mobile-alt
+  {
+    padding-right: 20px;
+  }
+
+  .fa-list-ul
+  {
+    padding-right: 20px;
+  }
+
+  .fa-store
+  {
+    padding-right: 20px;
+  }
+
+  @media (min-width: 1280px)
+  {
+    .fonctionnement-title 
+    {
+      margin-left: -20px;
+      margin-right: 30px;
+    }
+    .fonctionnement
+    {
+      display: flex;
+      flex-direction: row;
+      margin: 50px;
+    }
+  }
+
