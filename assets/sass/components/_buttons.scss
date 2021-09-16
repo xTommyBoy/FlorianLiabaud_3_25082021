@@ -1,70 +1,94 @@
 @import "../settings/colors";
 
-  .reservation-bouton {
-    align-content: center;
-    background-color: $fuchsia_f80be8;
-    border: 1px solid transparent;
-    border-radius: 20px;
-    box-shadow: inset -16px -13px 20px 6px $darkorchid_ab2ed1;
-    color: white;
-    display: flex;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    height: 30px;
-    justify-content: center;
-    margin: auto;
-    padding-top: 15px;
-    width: 210px;
-  }
+.reservation-bouton 
+{
+  align-content: center;
+  background-color: $fuchsia_f80be8;
+  background: linear-gradient(180deg, #ee74da, #af5fdb);
+  border: 1px solid transparent;
+  border-radius: 100px;
+  color: white;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  justify-content: center;
+  margin: auto;
+  padding: 15px 30px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.25);
+  font-size: 20px;
+  cursor: pointer;
+}
 
-  .fonctionnement-button {
-    display: flex;
-    justify-content: center; align-items: center;
-    background-color: $whitesmoke_f6f6f6;
-    border-radius: 20px;
-    color: $black_000;
-    font-family: Roboto, sans-serif;
-    font-weight: 700;
-    margin: auto;
-    padding: 25px 40px 25px 40px;
-    text-align: center;
-    width: 220px;
-  }
+.fonctionnement-button 
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f6f6f6;
+  border-radius: 20px;
+  color: #000000;
+  font-family: Roboto, sans-serif;
+  font-weight: 700;
+  margin: auto;
+  padding: 25px 40px 25px 40px;
+  text-align: center;
+  width: 80%;
+  box-shadow: 7px 7px 11px 0px rgba(0, 0, 0, 0.1);
+  max-width: 316px;
+  position: relative;
+  cursor: default;
 
-  .command-button
+  &:hover 
   {
-    align-content: center;
-    background-color: $fuchsia_f80be8;
-    border: 1px solid transparent;
-    border-radius: 20px;
-    box-shadow: inset -16px -13px 20px 6px $darkorchid_ab2ed1;
-    color: white;
-    display: flex;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 500;
-    height: 30px;
-    justify-content: center;
-    margin: auto;
-    padding-top: 15px;
-    margin-bottom: 15px;
-    width: 210px;
+    background-color: #f5edff;
   }
+}
 
-  .numbers
+.command-button 
+{
+  align-content: center;
+  background-color: $fuchsia_f80be8;
+  background: linear-gradient(180deg, #ee74da, #af5fdb);
+  border: 1px solid transparent;
+  border-radius: 100px;
+  color: white;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  justify-content: center;
+  margin: 30px auto 60px;
+  padding: 15px 30px;
+  box-shadow: 2px 4px 6px rgb(0 0 0 / 25%);
+  font-size: 20px;
+  max-width: 220px;
+  cursor: pointer;
+}
+
+.numbers 
+{
+  position: absolute;
+  background-color: #9356dc;
+  color: white;
+  padding: 5px 10px 5px 10px;
+  border-radius: 100%;
+  margin-right: 300px;
+  left: 0;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+@media (min-width: 320px) and (max-width: 340px) 
+{
+  .fonctionnement-button 
   {
-    position: absolute;
-    background-color:#9356DC;
-    color: white;
-    padding:5px 10px 5px 10px;
-    border-radius: 100%;
-    margin-right: 300px;
+    margin: auto 20px auto;
   }
-
-  @media (min-width: 320px) and (max-width: 340px)
+}
+@media screen and (min-width: 768px) 
+{
+  .fonctionnement-button 
   {
-    .fonctionnement-button
-    {
-      margin: auto 20px auto;
-    }
+    min-width: 300px;
+    flex-basis: 80%;
   }
-
+}

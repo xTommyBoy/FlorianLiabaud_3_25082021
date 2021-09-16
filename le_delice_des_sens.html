@@ -1,53 +1,158 @@
 <!DOCTYPE html>
 <html lang="fr">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link rel="OhMyFood" href="assets/images/logo/ohmyfood-favicon.png" type="image/x-icon">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" media="all" rel="stylesheet">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="assets/css/style.css"/>
+    <link rel="OhMyFood" href="assets/images/logo/ohmyfood-favicon.png" type="image/x-icon"/>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css" media="all" rel="stylesheet"/>
     <title>OhMyFood!</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
+      <div class="header-logo">
         <a href="index.html">
-            <div class="header-logo">
-                <img class="header-image" src="assets/images/logo/ohmyfood.png" href="#">
-              </a>
-            </div>
-        <div>
-            <img class="font-image" src="assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg">
+          <img class="header-image" src="assets/images/logo/ohmyfood.png" href="#"/>
+        </a>
+        <a href="index.html" class="header-back-link">
+          <i class="fas fa-arrow-left"></i>
+        </a>
+      </div>
+      <img class="font-image" src="assets/images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"/>
+    </header>
+    <section class="menu">
+      <div class="menu-header">
+        <h2 class="menu-title">Le délice des sens</h2>
+        <div class="menu-fav">
+          <input type="checkbox" name="menu-fav-checkbox1" id="menu-fav-checkbox1"/>
+          <label for="menu-fav-checkbox1" class="menu-fav-btn">
+            <i class="far fa-heart"></i>
+            <i class="fas fa-heart"></i>
+          </label>
         </div>
-        </header>
-        <section class="menu">
-            <h2 class="menu-title">Le délice des sens</h2>
-            <div class="menu-blocks">
-            <p class="menu-types">ENTRÉES</p>
-            <div class="choice-block">Tartare de thon</div>
-            <div class="choice-block">Bouchée de homard croustillant</div>
-            <div class="choice-block">Velouté de cèpes</div>
+      </div>
+      <div class="menu-blocks">
+        <p class="menu-types">ENTRÉES</p>
+        <div class="choice-block">
+          <div class="choice-block-text">
+            <h4>Tartare de thon</h4>
+            <p>Assaisonné au yuzu <span class="price">25€</span>
+            </p>
+          </div>
+          <input type="checkbox" id="choice-block-checkbox1" class="choice-block-checkbox"/>
+          <label for="choice-block-checkbox1" class="choice-block-icon">
+            <i class="fas fa-check-circle"></i>
+          </label>
         </div>
-        <div class="menu-blocks">
-            <p class="menu-types">PLATS</p>
-            <div class="choice-block">Poulet rôti aux herbes de Provence</div>
-            <div class="choice-block">Langouste rôtie</div>
-            <div class="choice-block">Côte de boeuf Angus</div>
+        <div class="choice-block">
+          <div class="choice-block-text">
+            <h4>Bouchée de homard croustillant</h4>
+            <p> Et sa farandole de petits légumes <span class="price">35€</span>
+            </p>
+          </div>
+          <input type="checkbox" id="choice-block-checkbox2" class="choice-block-checkbox"/>
+          <label for="choice-block-checkbox2" class="choice-block-icon">
+            <i class="fas fa-check-circle"></i>
+          </label>
         </div>
-        <div class="menu-blocks">
-            <p class="menu-types">DESSERTS</p>
-            <div class="choice-block">Farandole de desserts</div>
-            <div class="choice-block">Crème brulée</div>
-            <div class="choice-block">Tiramisu</div>
+        <div class="choice-block">
+          <div class="choice-block-text">
+            <h4>Velouté de cèpes</h4>
+            <p>Aux truffes <span class="price">20€</span>
+            </p>
+          </div>
+          <input type="checkbox" id="choice-block-checkbox3" class="choice-block-checkbox"/>
+          <label for="choice-block-checkbox3" class="choice-block-icon">
+            <i class="fas fa-check-circle"></i>
+          </label>
         </div>
-        </section>
-        <div class="command-button">Commander</div>
-        <footer>
-            <h3>ohmyfood</h3>
-            <ul>
-                <li><i class="fas fa-utensils"></i>Proposer un restaurant</li>
-                <li><i class="fas fa-hands-helping"></i>Devenir partenaire</li>
-                <li>Mentions Légales</li>
-                <li>Contact</li>
-            </ul>
-        </footer>
-</body>
+      </div>
+      <div class="menu-blocks">
+        <p class="menu-types">PLATS</p>
+        <div class="choice-block">
+          <div class="choice-block-text">
+            <h4>Poulet rôti aux herbes de Provence</h4>
+            <p>Et sa crème de truffe <span class="price">40€</span>
+            </p>
+          </div>
+          <input type="checkbox" id="choice-block-checkbox4" class="choice-block-checkbox"/>
+          <label for="choice-block-checkbox4" class="choice-block-icon">
+            <i class="fas fa-check-circle"></i>
+          </label>
+        </div>
+        <div class="choice-block">
+          <div class="choice-block-text">
+            <h4>Langouste rôtie</h4>
+            <p>Et ses légumes de saison <span class="price">35€</span>
+            </p>
+          </div>
+          <input type="checkbox" id="choice-block-checkbox5" class="choice-block-checkbox"/>
+          <label for="choice-block-checkbox5" class="choice-block-icon">
+            <i class="fas fa-check-circle"></i>
+          </label>
+        </div>
+        <div class="choice-block">
+          <div class="choice-block-text">
+            <h4>Côte de boeuf Angus</h4>
+            <p>Et sa purée de panais <span class="price">44€</span>
+            </p>
+          </div>
+          <input type="checkbox" id="choice-block-checkbox6" class="choice-block-checkbox"/>
+          <label for="choice-block-checkbox6" class="choice-block-icon">
+            <i class="fas fa-check-circle"></i>
+          </label>
+        </div>
+      </div>
+      <div class="menu-blocks">
+        <p class="menu-types">DESSERTS</p>
+        <div class="choice-block">
+          <div class="choice-block-text">
+            <h4>Farandole de desserts</h4>
+            <p>Du chef <span class="price">18€</span>
+            </p>
+          </div>
+          <input type="checkbox" id="choice-block-checkbox7" class="choice-block-checkbox"/>
+          <label for="choice-block-checkbox7" class="choice-block-icon">
+            <i class="fas fa-check-circle"></i>
+          </label>
+        </div>
+        <div class="choice-block">
+          <div class="choice-block-text">
+            <h4>Crème brulée</h4>
+            <p>Revisitée <span class="price">22€</span>
+            </p>
+          </div>
+          <input type="checkbox" id="choice-block-checkbox8" class="choice-block-checkbox"/>
+          <label for="choice-block-checkbox8" class="choice-block-icon">
+            <i class="fas fa-check-circle"></i>
+          </label>
+        </div>
+        <div class="choice-block">
+          <div class="choice-block-text">
+            <h4>Tiramisu</h4>
+            <p>A la noisette <span class="price">23€</span>
+            </p>
+          </div>
+          <input type="checkbox" id="choice-block-checkbox9" class="choice-block-checkbox"/>
+          <label for="choice-block-checkbox9" class="choice-block-icon">
+            <i class="fas fa-check-circle"></i>
+          </label>
+        </div>
+      </div>
+    </section>
+    <div class="command-button">Commander</div>
+    <footer>
+      <h3>ohmyfood</h3>
+      <ul>
+        <li>
+          <i class="fas fa-utensils"></i>Proposer un restaurant
+        </li>
+        <li>
+          <i class="fas fa-hands-helping"></i>Devenir partenaire
+        </li>
+        <li>Mentions Légales</li>
+        <li>Contact</li>
+      </ul>
+    </footer>
+  </body>
+</html>

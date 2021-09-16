@@ -1,39 +1,47 @@
 @import "../settings/colors";
+.header-logo {
+  align-items: center;
+  box-shadow: 0 5px 7px -1px $lightgray_cfcfcf;
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  padding-bottom: 10px;
+  padding-top: 20px;
+  position: relative;
 
-  .header-logo {
-    align-items: center;
-    box-shadow: 0 5px 7px -1px $lightgray_cfcfcf;
-    display: flex;
-    flex-direction: column;
-    padding-bottom: 10px;
-    padding-top: 20px;
+  .header-back-link {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    display: inline-block;
+    font-size: 24px;
+    transform: translate(-50%,-50%);
+
   }
-
-  .header-image {
-    height: 35px;
-  }
-
-  .paris-bloc {
-    background-color: $whitesmoke_eaeaea;
-    flex-direction: column;
-    margin-top: -10px;
-  }
-
-  .paris-text {
-    color: $dimgray_5c5c5c;
-    font-family: 'Roboto';
-    font-size: 1rem;
-    padding-bottom: 15px;
-    padding-top: 15px;
-    text-align: center;
-  }
-
-  .fa-map-marker-alt {
-    padding-right: 10px;
-  }
-
-@media (min-width: 500px) and (max-width: 800px)
-{
-  
 }
 
+.header-image {
+  height: 35px;
+}
+
+.paris-bloc {
+  background-color: $whitesmoke_eaeaea;
+  flex-direction: column;
+  margin-top: -10px;
+}
+
+.paris-text {
+  color: $dimgray_5c5c5c;
+  font-family: "Roboto";
+  font-size: 1rem;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+.fa-map-marker-alt {
+  padding-right: 10px;
+}
+
+@media (min-width: 500px) and (max-width: 800px) {
+}

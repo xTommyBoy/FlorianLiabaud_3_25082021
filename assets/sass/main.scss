@@ -1,3 +1,10 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background: #f6f6f6;
+}
+
 @import "layout/header";
 
 @import "components/buttons";
@@ -17,3 +24,5 @@
 @import "pages/menu";
 
 @import "settings/colors";
+
+@import "settings/animations";

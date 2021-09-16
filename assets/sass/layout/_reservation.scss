@@ -1,32 +1,43 @@
+body {
+  margin: 0;
+}
 
-  body {
-    margin: 0;
-  }
+.reservation {
+  background-color: $whitesmoke_f7f7f7;
+  display: flex;
+  flex-direction: column;
+  font-family: "Roboto";
+  margin-top: -14px;
+  padding-bottom: 65px;
+  padding-left: 10px;
+  padding-right: 10px;
+  text-align: center;
+}
 
-  .reservation {
-    background-color: $whitesmoke_f7f7f7;
-    display: flex;
-    flex-direction: column;
-    font-family: 'Roboto';
-    margin-top: -14px;
-    padding-bottom: 35px;
-    padding-left: 10px;
-    padding-right: 10px;
-    text-align: center;
-  }
+.reservation-title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 15px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 36px;
+  width: 90%;
+  max-width: 400px;
+}
+.reservation p {
+  font-size: 23px;
+  font-weight: lighter;
+  width: 90%;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
 
-  .reservation-title {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-
-@media (min-width: 500px) and (max-width: 1800px)
-{
-  .reservation p
-  {
+@media (min-width: 500px) and (max-width: 1800px) {
+  .reservation p {
     padding-bottom: 20px;
   }
 }
