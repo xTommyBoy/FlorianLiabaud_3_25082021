@@ -100,6 +100,23 @@ a {
   i.far{
     display: block;
   }
+  input:checked + label i.far {
+    position: absolute;
+    opacity: 0;
+    transition: opacity 0.2s .5s;
+  }
+  input:checked + label i.fas {
+    display: block;
+    background:-webkit-gradient(linear, left top, left bottom, from(#ee6fda), to(#b85ada));
+    background:-o-linear-gradient(#ee6fda, #b85ada);
+    background:linear-gradient(#ee6fda, #b85ada);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-animation: zoomIn 0.5s 1 forwards;
+            animation: zoomIn 0.5s 1 forwards;
+  }
+  
 }
 @media screen and (min-width: 768px) and (max-width: 1000px) {
   .restaurants-block {
