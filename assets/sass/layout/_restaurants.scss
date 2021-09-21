@@ -1,9 +1,11 @@
 @import "../settings/colors";
-a {
+
+a
+{
   text-decoration: inherit;
   color: inherit;
-  display: contents;
 }
+
 .restaurants {
   background: $whitesmoke_f6f6f6;
   padding: 20px;
@@ -40,10 +42,15 @@ a {
     width: 100%;
   }
   a{
-    display: block;
+    display: contents;
     height: 100%;
     background-color: #fff;
   }
+}
+
+#specify-height
+{
+  height: 84%;
 }
 .restaurants-block.new-block {
   position:relative;

@@ -247,7 +247,6 @@ body {
 a {
   text-decoration: inherit;
   color: inherit;
-  display: contents;
 }
 
 .restaurants {
@@ -286,9 +285,13 @@ a {
   width: 100%;
 }
 .restaurants-block a {
-  display: block;
+  display: contents;
   height: 100%;
   background-color: #fff;
+}
+
+#specify-height {
+  height: 84%;
 }
 
 .restaurants-block.new-block {
